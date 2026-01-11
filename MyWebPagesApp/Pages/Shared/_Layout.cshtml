@@ -17,7 +17,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">@name</a>
+                <span class="navbar-brand">@name</span>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -31,6 +31,9 @@
                             <a class="nav-link text-dark" asp-area="" asp-page="/Test">Test</a>
                         </li>
                     </ul>
+                    <div class="d-flex align-items-center">
+                        <component type="typeof(MyWebPagesApp.Pages.Shared.Clock)" render-mode="ServerPrerendered" />
+                    </div>
                 </div>
             </div>
         </nav>
@@ -40,6 +43,7 @@
             @RenderBody()
         </main>
     </div>
+    
     @{
     // <footer class="border-top footer text-muted">
     //     <div class="container">
@@ -51,6 +55,11 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <!-- Ensure global fallback is loaded so the component can call startClock if module import fails -->
+    <script src="~/js/clockInterop.js" asp-append-version="true"></script>
+
+    <script src="_framework/blazor.server.js"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
