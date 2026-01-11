@@ -84,8 +84,6 @@ C:\Users\AJ\source\repos\ajt9\resume_site\MyWebPagesApp\obj\Debug\net10.0\compre
 C:\Users\AJ\source\repos\ajt9\resume_site\MyWebPagesApp\obj\Debug\net10.0\compressed\jw6iqip9b6-{0}-muycvpuwrr-muycvpuwrr.gz
 C:\Users\AJ\source\repos\ajt9\resume_site\MyWebPagesApp\obj\Debug\net10.0\compressed\u0iwejvogr-{0}-87fc7y1x7t-87fc7y1x7t.gz
 C:\Users\AJ\source\repos\ajt9\resume_site\MyWebPagesApp\obj\Debug\net10.0\compressed\lgybmyj0he-{0}-mlv21k5csn-mlv21k5csn.gz
-C:\Users\AJ\source\repos\ajt9\resume_site\MyWebPagesApp\obj\Debug\net10.0\compressed\au50ougb6y-{0}-067f5jtioq-067f5jtioq.gz
-C:\Users\AJ\source\repos\ajt9\resume_site\MyWebPagesApp\obj\Debug\net10.0\compressed\ofah4dci5n-{0}-067f5jtioq-067f5jtioq.gz
 C:\Users\AJ\source\repos\ajt9\resume_site\MyWebPagesApp\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\AJ\source\repos\ajt9\resume_site\MyWebPagesApp\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\AJ\source\repos\ajt9\resume_site\MyWebPagesApp\obj\Debug\net10.0\staticwebassets.development.json
@@ -97,3 +95,9 @@ C:\Users\AJ\source\repos\ajt9\resume_site\MyWebPagesApp\obj\Debug\net10.0\refint
 C:\Users\AJ\source\repos\ajt9\resume_site\MyWebPagesApp\obj\Debug\net10.0\MyWebPagesApp.pdb
 C:\Users\AJ\source\repos\ajt9\resume_site\MyWebPagesApp\obj\Debug\net10.0\MyWebPagesApp.genruntimeconfig.cache
 C:\Users\AJ\source\repos\ajt9\resume_site\MyWebPagesApp\obj\Debug\net10.0\ref\MyWebPagesApp.dll
+C:\Users\AJ\source\repos\ajt9\resume_site\MyWebPagesApp\obj\Debug\net10.0\EmbeddedAttribute.cs
+C:\Users\AJ\source\repos\ajt9\resume_site\MyWebPagesApp\obj\Debug\net10.0\ValidatableTypeAttribute.cs
+C:\Users\AJ\source\repos\ajt9\resume_site\MyWebPagesApp\obj\Debug\net10.0\compressed\ppno20x3m9-{0}-wmp8iwak4q-wmp8iwak4q.gz
+C:\Users\AJ\source\repos\ajt9\resume_site\MyWebPagesApp\obj\Debug\net10.0\compressed\1a3on8xuqt-{0}-2lgipwaf5j-2lgipwaf5j.gz
+C:\Users\AJ\source\repos\ajt9\resume_site\MyWebPagesApp\obj\Debug\net10.0\compressed\au50ougb6y-{0}-067f5jtioq-067f5jtioq.gz
+C:\Users\AJ\source\repos\ajt9\resume_site\MyWebPagesApp\obj\Debug\net10.0\compressed\ofah4dci5n-{0}-067f5jtioq-067f5jtioq.gz

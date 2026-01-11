@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9DzQQfaYSxM=",
+  "dgSpecHash": "+2BuduyHdu8=",
   "success": true,
   "projectFilePath": "C:\\Users\\AJ\\source\\repos\\ajt9\\resume_site\\MyWebPagesApp\\MyWebPagesApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\AJ\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.1\\microsoft.aspnetcore.app.internal.assets.10.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

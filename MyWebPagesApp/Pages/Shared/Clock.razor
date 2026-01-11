@@ -1,0 +1,42 @@
+@implements IDisposable
+
+@if (!isBrowser)
+{
+    <span title="Server">Server time: @now.ToString()</span>
+}
+else
+{
+    <span>Client local time: @now.ToString()</span>
+}
+
+@code {
+    private DateTime now = DateTime.Now;
+    private System.Threading.Timer? timer;
+    private readonly bool isBrowser = OperatingSystem.IsBrowser();
+
+    protected override void OnInitialized()
+    {
+        // Only start the repeating update when running in the browser (Blazor WebAssembly).
+        // When running on the server we cannot determine the client's clock without
+        // client-side input (which requires JavaScript or an explicit value from the client).
+        if (isBrowser)
+        {
+            // Update every second on the client
+            timer = new System.Threading.Timer(_ =>
+            {
+                now = DateTime.Now;
+                InvokeAsync(StateHasChanged);
+            }, null, TimeSpan.Zero, TimeSpan.FromSeconds(1));
+        }
+        else
+        {
+            // Keep a single server snapshot to avoid unnecessary server timer load.
+            now = DateTime.Now;
+        }
+    }
+
+    public void Dispose()
+    {
+        timer?.Dispose();
+    }
+}

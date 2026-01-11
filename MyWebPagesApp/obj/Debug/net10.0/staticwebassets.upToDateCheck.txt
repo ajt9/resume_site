@@ -61,6 +61,8 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
+C:\Users\AJ\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.1\build\..\_framework\blazor.web.js
+C:\Users\AJ\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.1\build\..\_framework\blazor.server.js
 C:\Users\AJ\source\repos\ajt9\resume_site\MyWebPagesApp\wwwroot\css\site.css
 C:\Users\AJ\source\repos\ajt9\resume_site\MyWebPagesApp\wwwroot\favicon.ico
 C:\Users\AJ\source\repos\ajt9\resume_site\MyWebPagesApp\wwwroot\js\site.js
@@ -123,3 +125,5 @@ C:\Users\AJ\source\repos\ajt9\resume_site\MyWebPagesApp\wwwroot\lib\jquery\dist\
 C:\Users\AJ\source\repos\ajt9\resume_site\MyWebPagesApp\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\AJ\source\repos\ajt9\resume_site\MyWebPagesApp\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\AJ\source\repos\ajt9\resume_site\MyWebPagesApp\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\AJ\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.1\_framework\blazor.web.js
+C:\Users\AJ\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.1\_framework\blazor.server.js
