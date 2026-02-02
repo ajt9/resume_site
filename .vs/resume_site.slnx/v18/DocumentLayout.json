@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\AJ\\source\\repos\\resume_site\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AJ\\source\\repos\\resume_site\\MyBlazorApp1\\Components\\Layout\\MainLayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MyBlazorApp1\\Components\\Layout\\MainLayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|c:\\users\\aj\\source\\repos\\resume_site\\myblazorapp1\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|solutionrelative:myblazorapp1\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AJ\\Desktop\\repos2\\MyBlazorApp1\\MyBlazorApp1\\Components\\Layout\\MainLayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
@@ -17,12 +17,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AJ\\source\\repos\\resume_site\\MyBlazorApp1\\Components\\Layout\\MainLayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MyBlazorApp1\\Components\\Layout\\MainLayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|c:\\users\\aj\\source\\repos\\resume_site\\myblazorapp1\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|solutionrelative:myblazorapp1\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AJ\\source\\repos\\resume_site\\MyBlazorApp1\\Components\\ShootingStar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MyBlazorApp1\\Components\\ShootingStar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|c:\\users\\aj\\source\\repos\\resume_site\\myblazorapp1\\components\\shootingstar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|solutionrelative:myblazorapp1\\components\\shootingstar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -72,7 +72,7 @@
               "RelativeDocumentMoniker": "MyBlazorApp1\\Components\\Layout\\MainLayout.razor.css",
               "ToolTip": "C:\\Users\\AJ\\source\\repos\\resume_site\\MyBlazorApp1\\Components\\Layout\\MainLayout.razor.css",
               "RelativeToolTip": "MyBlazorApp1\\Components\\Layout\\MainLayout.razor.css",
-              "ViewState": "AgIAAHkAAAAAAAAAAADwv88AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2026-02-02T05:51:19.833Z",
               "EditorCaption": ""
