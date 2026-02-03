@@ -2,34 +2,40 @@
 @using MyBlazorApp1.Components
 @implements IAsyncDisposable
 
-<div class="page">
-    <main>
-        <div class="top-row px-4">
-            <h1>AJ TOMALINO</h1>
-            <h3>Computer Science Student</h3>
-            @foreach (var star in shootingStars)
-            {
-                <div class="shooting-star" style="@star.GetAnimationStyle()"></div>
-            }
-            <div class="nav-links">
-                <a href="/">Home</a>
-                <a href="counter">Counter</a>
-                <a href="skills">Skills</a>
-            </div>
+<html lang="en">
+    <div class="top-row px-4">
+        <h1>AJ TOMALINO</h1>
+        <h3>Computer Science Student</h3>
+        @foreach (var star in shootingStars)
+        {
+            <div class="shooting-star" style="@star.GetAnimationStyle()"></div>
+        }
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="counter">Counter</a>
+            <a href="skills">Skills</a>
+        </div>
+    </div>
+    <body>
+        <div class="page">
+            <main>
+                <article class="content px-4">
+                    <br/>
+                    @Body
+                    <div class="pad"></div>
+                </article>
+            </main>
         </div>
 
-        <article class="content px-4">
-            <br/>
-            @Body
-        </article>
-    </main>
-</div>
+        <div id="blazor-error-ui" data-nosnippet>
+            An unhandled error has occurred.
+            <a href="." class="reload">Reload</a>
+            <span class="dismiss">🗙</span>
+        </div>
 
-<div id="blazor-error-ui" data-nosnippet>
-    An unhandled error has occurred.
-    <a href="." class="reload">Reload</a>
-    <span class="dismiss">🗙</span>
-</div>
+    </body>
+
+</html>
 
 @code {
     private List<ShootingStar> shootingStars = new();
