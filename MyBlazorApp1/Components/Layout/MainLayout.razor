@@ -19,6 +19,7 @@
         </div>
 
         <article class="content px-4">
+            <br/>
             @Body
         </article>
     </main>
@@ -37,7 +38,7 @@
     protected override void OnInitialized()
     {
         // Generate 15 shooting stars for more frequent appearances
-        for (int i = 0; i < 15; i++)
+        for (int i = 0; i < 25; i++)
         {
             shootingStars.Add(new ShootingStar(i, random));
         }

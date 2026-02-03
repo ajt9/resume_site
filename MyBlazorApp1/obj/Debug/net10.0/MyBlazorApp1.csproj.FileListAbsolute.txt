@@ -83,5 +83,5 @@ C:\Users\AJ\source\repos\resume_site\MyBlazorApp1\obj\Debug\net10.0\refint\MyBla
 C:\Users\AJ\source\repos\resume_site\MyBlazorApp1\obj\Debug\net10.0\MyBlazorApp1.pdb
 C:\Users\AJ\source\repos\resume_site\MyBlazorApp1\obj\Debug\net10.0\MyBlazorApp1.genruntimeconfig.cache
 C:\Users\AJ\source\repos\resume_site\MyBlazorApp1\obj\Debug\net10.0\ref\MyBlazorApp1.dll
-C:\Users\AJ\source\repos\resume_site\MyBlazorApp1\obj\Debug\net10.0\compressed\uzwr495m1d-{0}-xlxmbesvc8-xlxmbesvc8.gz
-C:\Users\AJ\source\repos\resume_site\MyBlazorApp1\obj\Debug\net10.0\compressed\mbv6pchqgc-{0}-xlxmbesvc8-xlxmbesvc8.gz
+C:\Users\AJ\source\repos\resume_site\MyBlazorApp1\obj\Debug\net10.0\compressed\uzwr495m1d-{0}-09yhlgj4ob-09yhlgj4ob.gz
+C:\Users\AJ\source\repos\resume_site\MyBlazorApp1\obj\Debug\net10.0\compressed\mbv6pchqgc-{0}-09yhlgj4ob-09yhlgj4ob.gz
