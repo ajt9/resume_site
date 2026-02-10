@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\AJ\\source\\repos\\resume_site\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|c:\\users\\aj\\source\\repos\\resume_site\\myblazorapp1\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|solutionrelative:myblazorapp1\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|c:\\users\\aj\\source\\repos\\resume_site\\myblazorapp1\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|solutionrelative:myblazorapp1\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|c:\\users\\aj\\source\\repos\\resume_site\\myblazorapp1\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|solutionrelative:myblazorapp1\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|c:\\users\\aj\\source\\repos\\resume_site\\myblazorapp1\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|solutionrelative:myblazorapp1\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|c:\\users\\aj\\source\\repos\\resume_site\\myblazorapp1\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|solutionrelative:myblazorapp1\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|c:\\users\\aj\\source\\repos\\resume_site\\myblazorapp1\\components\\shootingstar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,13 +42,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\AJ\\source\\repos\\resume_site\\MyBlazorApp1\\Components\\App.razor",
+              "RelativeDocumentMoniker": "MyBlazorApp1\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\AJ\\source\\repos\\resume_site\\MyBlazorApp1\\Components\\App.razor",
+              "RelativeToolTip": "MyBlazorApp1\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-05T21:20:28.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\AJ\\source\\repos\\resume_site\\MyBlazorApp1\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "MyBlazorApp1\\Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\AJ\\source\\repos\\resume_site\\MyBlazorApp1\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "MyBlazorApp1\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-02T21:07:36.967Z",
               "EditorCaption": ""
@@ -52,30 +69,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainLayout.razor.css",
-              "DocumentMoniker": "C:\\Users\\AJ\\source\\repos\\resume_site\\MyBlazorApp1\\Components\\Layout\\MainLayout.razor.css",
-              "RelativeDocumentMoniker": "MyBlazorApp1\\Components\\Layout\\MainLayout.razor.css",
-              "ToolTip": "C:\\Users\\AJ\\source\\repos\\resume_site\\MyBlazorApp1\\Components\\Layout\\MainLayout.razor.css",
-              "RelativeToolTip": "MyBlazorApp1\\Components\\Layout\\MainLayout.razor.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-02-02T05:51:19.833Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\AJ\\source\\repos\\resume_site\\MyBlazorApp1\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "MyBlazorApp1\\Components\\Layout\\MainLayout.razor",
               "ToolTip": "C:\\Users\\AJ\\source\\repos\\resume_site\\MyBlazorApp1\\Components\\Layout\\MainLayout.razor",
               "RelativeToolTip": "MyBlazorApp1\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-02T05:50:55.59Z"
+              "WhenOpened": "2026-02-02T05:50:55.59Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "C:\\Users\\AJ\\source\\repos\\resume_site\\MyBlazorApp1\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "MyBlazorApp1\\Components\\Layout\\MainLayout.razor.css",
+              "ToolTip": "C:\\Users\\AJ\\source\\repos\\resume_site\\MyBlazorApp1\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "MyBlazorApp1\\Components\\Layout\\MainLayout.razor.css",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAIYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-02T05:51:19.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ShootingStar.cs",
               "DocumentMoniker": "C:\\Users\\AJ\\source\\repos\\resume_site\\MyBlazorApp1\\Components\\ShootingStar.cs",
               "RelativeDocumentMoniker": "MyBlazorApp1\\Components\\ShootingStar.cs",
@@ -87,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\AJ\\source\\repos\\resume_site\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",

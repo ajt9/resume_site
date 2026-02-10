@@ -2,6 +2,8 @@
 @using MyBlazorApp1.Components
 @implements IAsyncDisposable
 
+@inject IJSRuntime JS
+
 <html lang="en">
     <div class="top-row px-4">
         <h1>AJ TOMALINO</h1>
@@ -43,7 +45,7 @@
 
     protected override void OnInitialized()
     {
-        // Generate 15 shooting stars for more frequent appearances
+        // Generate shooting stars 
         for (int i = 0; i < 25; i++)
         {
             shootingStars.Add(new ShootingStar(i, random));
@@ -54,5 +56,15 @@
     {
         // Cleanup if needed
         await Task.CompletedTask;
+    }
+
+    private ElementReference fadeElement;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JS.InvokeVoidAsync("scrollFade.observe", fadeElement);
+        }
     }
 }
