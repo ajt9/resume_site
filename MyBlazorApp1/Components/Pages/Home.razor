@@ -1,38 +1,36 @@
 ﻿@page "/"
+@rendermode InteractiveServer
 
 <PageTitle>Home</PageTitle>
 
-<h1>Hello, world!</h1>
-
-<p>I'm a website! ^_^</p>
-
-<h3><u>IN DEVELOPMENT!</u></h3>
-
-<h1> Welcome to my website!</h1>
-<h2> About Me</h2>
+<h2> Welcome to my website!</h2>
+<br/>
+<h1> About Me</h1>
 
 <p>
-    I am a talented senior pursuing a B.S., and eventually
-    my M.S., searching for a summer internship in the
-    CS&IT field where I can both leverage my current
-    technical skills and build new ones. I want to use my
-    internship experience to help further my academic
-    journey and help me develop my career.
+    Hello, I am AJ Tomalino. I am currently a senior at Kutztown University. I am pursuing my Bachelor's
+    degree in Computer Science with a minor in Mathematics. I have always had a passion for all things
+    technology related, and I wish to use this website to showcase my current hobbies and projects.
     <br/>
-    Place holder
+    Currently, I am taking a software engineering class where me and my group will be developing
+    an embedded system on a small computer, likely a Raspberry Pi. The project is in its extremely early
+    phases, but I am excited to see where it goes! When development begins, it will be on my GitHub page.
+    <br/>
+    On top of that, I am also working on this very website as my own personal project. This is my first time
+    working with Blazor, so I am learning as I go. I hope to add more features and pages in the future!
 </p>
 
-<h3>Extra Curriculars</h3>
+
+<h3>Tech-Related Hobbies and Interests</h3>
 <ul>
-    <li>Placeholder</li>
-    <li>Placeholder</li>
-    <li>Placeholder</li>
-    <li>Placeholder</li>
-    <li>Placeholder</li>
-    <li>Placeholder</li>
-    <li>Placeholder</li>
-    <li>Placeholder</li>
-    <li>Placeholder</li>
+    
+
+    @foreach (var hobby in TechHBY)
+    {
+        <li @onclick="hobby.Toggle">@hobby.label
+            <p hidden="@hobby.isHidden"> @hobby.content </p>
+        </li>
+    }
 </ul>
 
 <h3>Other</h3>
@@ -49,16 +47,51 @@
     <li>Placeholder</li>
 </ul>
 
-<h3>Even more</h3>
-<ul>
-    <li>Placeholder</li>
-    <li>Placeholder</li>
-    <li>Placeholder</li>
-    <li>Placeholder</li>
-    <li>Placeholder</li>
-    <li>Placeholder</li>
-    <li>Placeholder</li>
-    <li>Placeholder</li>
-    <li>Placeholder</li>
-    <li>Placeholder</li>
-</ul>
+@code {
+    private bool HideLabel { get; set; } = false;
+    private void ToggleLabel()
+    {
+        HideLabel = !HideLabel;
+    }
+
+    public List<PointToggle> TechHBY = new List<PointToggle>();
+    protected override void OnInitialized()
+    {
+        TechHBY.Add(new PointToggle("Tinkering with computers and hardware", "I've always enjoyed repairing computers. Back in highschool, I was part of a student organization that repaired the chromebooks of students and teachers. I have also repaired my own computers and those of friends and family. It is always so invigorating to see something that I worked on come back to life, and it makes all the hours spent troubleshooting worth it."));
+        TechHBY.Add(new PointToggle("Using my FlipperZero", "I recently acquired a FlipperZero as a gift. It is a small device for tech and cybersecurity enthusiasts. It has a variety of features, such as RFID and NFC capabilities, infrared communication, and many more. I haven't been able to get too deep into it yet, but I am excited to learn more about it. I hope to make a small script for it, or even relate it to my aforemention software engineering project in some way."));
+        TechHBY.Add(new PointToggle("Setting up Linux", "For the past few months, I have been using Linux as my primary operating system. I have always been interested in Linux, but I never took the plunge until recently, when the SSD in my laptop failed. Seeing the opportunity, I decided this was the perfect time to make the switch. I have been happily using CachyOS, a fork of Arch Linux. In daily driving it for the past few months, I have learned a lot about Linux and how it works. Prior to setting it up as my primary OS, I used Arch Linux on a small portable SSD for a while, which was a great learning experience as well."));
+        TechHBY.Add(new PointToggle("Reading technical books", "Every now and then, I bring an old technical book from my dad's collection. I've really been enjoying learning from these books. Even though they're a little dated, they still have a lot of useful information and a great way to learn about a topic from the ground up. Currently, I'm reading [placeholder] by [placeholder]."));
+    }
+
+    /*
+     * <li>Tinkering with computers and hardware
+        <p hidden="@HideLabel"> I've always enjoyed repairing computers. Back in highschool, I was part of a student organization
+            that repaired the chromebooks of students and teachers. I have also repaired my own computers and those
+            of friends and family. It is always so invigorating to see something that I worked on come back to life,
+            and it makes all the hours spent troubleshooting worth it.
+        </p>
+    </li>
+    <li>Using my FlipperZero
+        <p hidden="@HideLabel"> I recently acquired a FlipperZero as a gift. It is a small device for tech and cybersecurity
+            enthusiasts. It has a variety of features, such as RFID and NFC capabilities, infrared communication,
+            and many more. I haven't been able to get too deep into it yet, but I am excited to learn more about it.
+            I hope to make a small script for it, or even relate it to my aforemention software engineering project in some way.
+        </p>
+    </li>
+    <li>Setting up Linux
+        <p hidden="@HideLabel"> For the past few months, I have been using Linux as my primary operating system. I have always been interested in Linux, but I never took the
+            plunge until recently, when the SSD in my laptop failed. Seeing the opportunity, I decided this was the perfect time to make the switch.
+            I have been happily using CachyOS, a fork of Arch Linux. In daily driving it for the past few months, I have learned a lot about Linux and how it works.
+            Prior to setting it up as my primary OS, I used Arch Linux on a small portable SSD for a while, which was a great learning experience as well.
+        </p>
+    </li>
+    <li>Reading technical books
+        <p hidden="@HideLabel"> Every now and then, I bring an old technical book from my dad's collection. I've really been
+            enjoying learning from these books. Even though they're a little dated, they still have a lot
+            of useful information and a great way to learn about a topic from the ground up. Currently, I'm
+            reading [placeholder] by [placeholder].
+        </p>
+    </li>
+     */
+
+}

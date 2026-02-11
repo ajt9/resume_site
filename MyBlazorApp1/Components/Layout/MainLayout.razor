@@ -2,8 +2,6 @@
 @using MyBlazorApp1.Components
 @implements IAsyncDisposable
 
-@inject IJSRuntime JS
-
 <html lang="en">
     <div class="top-row px-4">
         <h1>AJ TOMALINO</h1>
@@ -14,8 +12,8 @@
         }
         <div class="nav-links">
             <a href="/">Home</a>
-            <a href="counter">Counter</a>
             <a href="skills">Skills</a>
+            <a href="https://github.com/ajt9">Github</a>
         </div>
     </div>
     <body>
@@ -56,15 +54,5 @@
     {
         // Cleanup if needed
         await Task.CompletedTask;
-    }
-
-    private ElementReference fadeElement;
-
-    protected override async Task OnAfterRenderAsync(bool firstRender)
-    {
-        if (firstRender)
-        {
-            await JS.InvokeVoidAsync("scrollFade.observe", fadeElement);
-        }
     }
 }

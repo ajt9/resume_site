@@ -19,7 +19,14 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    justify-items: flex-start;
+    align-items: flex-start;
     overflow: auto;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.page::-webkit-scrollbar {
+    display: none;
 }
 
 .pad {
@@ -30,11 +37,14 @@ body {
 }
 
 .content {
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     flex: 1;
     color: white;
     height: 100%;
+    width: 50vw;
+    min-width: 450px;
 }
 
 main {
