@@ -25,9 +25,10 @@
 <ul>
     @foreach (var hobby in TechHBY)
     {
-        <li @onclick="hobby.Toggle">@hobby.label
-            <p hidden="@hobby.isHidden"> @hobby.content </p>
-        </li>
+            <li style="@hobby.style" class="">
+                <button @onclick="hobby.Toggle">@hobby.label</button>
+                <p hidden="@hobby.isHidden"> @hobby.content </p>
+            </li>
     }
 </ul>
 
@@ -35,8 +36,8 @@
 <ul>
     @foreach (var hobby in OtherHBY)
     {
-        <li @onclick="hobby.Toggle">
-            @hobby.label
+        <li style="@hobby.style" class="">
+            <button @onclick="hobby.Toggle">@hobby.label</button>
             <p hidden="@hobby.isHidden"> @hobby.content </p>
         </li>
     }

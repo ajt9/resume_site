@@ -79,12 +79,30 @@ body[b-b6s66hs6p6] {
     }
         .content[b-b6s66hs6p6]  li:hover {
             border-left: 2px solid white;
+            animation-name: padding-hover-b-b6s66hs6p6;
+            animation-duration: 0.3s;
+            animation-fill-mode: forwards;
         }
-/*        .content ::deep li:has(p) {
-            border-left: 2px solid white;
-        }*/
+        @keyframes padding-hover-b-b6s66hs6p6 {
+            from {
+                padding-left: 20px;
+            }
+            to {
+                padding-left: 20px;
+            }
+        }
         .content[b-b6s66hs6p6]  li p {
             font-size: 1rem;
+        }
+        .content[b-b6s66hs6p6]  li button {
+            font-size: 1.25rem;
+            background: none;
+            border: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 300;
+            color: white;
+            margin: 0;
+            padding: 0;
         }
 
 main[b-b6s66hs6p6] {
