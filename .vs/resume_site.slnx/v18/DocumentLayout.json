@@ -11,20 +11,20 @@
       "RelativeMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|solutionrelative:myblazorapp1\\components\\pages\\skills.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|c:\\users\\aj\\source\\repos\\resume_site\\myblazorapp1\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|solutionrelative:myblazorapp1\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|c:\\users\\aj\\source\\repos\\resume_site\\myblazorapp1\\components\\skilltablet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|solutionrelative:myblazorapp1\\components\\skilltablet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|c:\\users\\aj\\source\\repos\\resume_site\\myblazorapp1\\components\\pointtoggle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|solutionrelative:myblazorapp1\\components\\pointtoggle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|c:\\users\\aj\\source\\repos\\resume_site\\myblazorapp1\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|solutionrelative:myblazorapp1\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|c:\\users\\aj\\source\\repos\\resume_site\\myblazorapp1\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|solutionrelative:myblazorapp1\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|c:\\users\\aj\\source\\repos\\resume_site\\myblazorapp1\\components\\pointtoggle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|solutionrelative:myblazorapp1\\components\\pointtoggle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3DC4975F-D052-7E10-387F-B8F283B0EEAF}|MyBlazorApp1\\MyBlazorApp1.csproj|c:\\users\\aj\\source\\repos\\resume_site\\myblazorapp1\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "MyBlazorApp1\\Components\\Pages\\Skills.razor",
               "ToolTip": "C:\\Users\\AJ\\source\\repos\\resume_site\\MyBlazorApp1\\Components\\Pages\\Skills.razor",
               "RelativeToolTip": "MyBlazorApp1\\Components\\Pages\\Skills.razor",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAFIAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-13T04:20:50.78Z",
               "EditorCaption": ""
@@ -73,14 +73,14 @@
               "RelativeDocumentMoniker": "MyBlazorApp1\\Components\\Pages\\Skills.razor.css",
               "ToolTip": "C:\\Users\\AJ\\source\\repos\\resume_site\\MyBlazorApp1\\Components\\Pages\\Skills.razor.css",
               "RelativeToolTip": "MyBlazorApp1\\Components\\Pages\\Skills.razor.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2026-02-13T04:38:23.102Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "SkillTablet.cs",
               "DocumentMoniker": "C:\\Users\\AJ\\source\\repos\\resume_site\\MyBlazorApp1\\Components\\SkillTablet.cs",
               "RelativeDocumentMoniker": "MyBlazorApp1\\Components\\SkillTablet.cs",
@@ -93,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Weather.razor",
               "DocumentMoniker": "C:\\Users\\AJ\\source\\repos\\resume_site\\MyBlazorApp1\\Components\\Pages\\Weather.razor",
               "RelativeDocumentMoniker": "MyBlazorApp1\\Components\\Pages\\Weather.razor",
@@ -110,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PointToggle.cs",
               "DocumentMoniker": "C:\\Users\\AJ\\source\\repos\\resume_site\\MyBlazorApp1\\Components\\PointToggle.cs",
               "RelativeDocumentMoniker": "MyBlazorApp1\\Components\\PointToggle.cs",
@@ -136,13 +136,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MainLayout.razor.css",
               "DocumentMoniker": "C:\\Users\\AJ\\source\\repos\\resume_site\\MyBlazorApp1\\Components\\Layout\\MainLayout.razor.css",
               "RelativeDocumentMoniker": "MyBlazorApp1\\Components\\Layout\\MainLayout.razor.css",
               "ToolTip": "C:\\Users\\AJ\\source\\repos\\resume_site\\MyBlazorApp1\\Components\\Layout\\MainLayout.razor.css",
               "RelativeToolTip": "MyBlazorApp1\\Components\\Layout\\MainLayout.razor.css",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIYAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2026-02-02T05:51:19.833Z",
               "EditorCaption": ""
