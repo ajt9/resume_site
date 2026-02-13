@@ -2,8 +2,84 @@
 
 <h1>Skills</h1>
 
-<p>I have them :D</p>
+<p> Between school and my own personal projects and interests, I have been exposed to many different skills.
+    Here is a list of some of the technical skills I have experience with, along with my self-assessed proficiency in them.
+</p>
+
+<h2>Programming Languages</h2>
+
+<div class="container">
+    @foreach (var skill in LangSkills)
+    {
+        <div>
+            <h4>
+                @skill.label
+            </h4>
+            <div class="progress">
+                <span style="width: @(skill.level)%;"></span>
+            </div>             
+        </div>
+    }
+</div>
+
+<h2>Software/Platforms</h2>
+
+<div class="container">
+    @foreach (var skill in PlatSkills)
+    {
+        <div>
+            <h4>
+                @skill.label
+            </h4>
+            <div class="progress">
+                <span style="width: @(skill.level)%;"></span>
+            </div>
+        </div>
+    }
+</div>
+
+<h2>Operating Systems</h2>
+
+<div class="container">
+    @foreach (var skill in OsSkills)
+    {
+        <div>
+            <h4>
+                @skill.label
+            </h4>
+            <div class="progress">
+                <span style="width: @(skill.level)%;"></span>
+            </div>
+        </div>
+    }
+</div>
 
 @code {
+    public List<SkillTablet> LangSkills = new List<SkillTablet>();
+    public List<SkillTablet> PlatSkills = new List<SkillTablet>();
+    public List<SkillTablet> OsSkills = new List<SkillTablet>();
 
+    protected override void OnInitialized()
+    {
+        LangSkills.Add(new SkillTablet("C/C++", 100));
+        LangSkills.Add(new SkillTablet("Bash", 80));
+        LangSkills.Add(new SkillTablet("Java", 70));
+        LangSkills.Add(new SkillTablet("C#", 60));
+        LangSkills.Add(new SkillTablet("Python", 60));
+        LangSkills.Add(new SkillTablet("x86-64 Assembly", 50));
+        LangSkills.Add(new SkillTablet("Rust", 40));
+        LangSkills.Add(new SkillTablet("JavaScript", 40));
+        LangSkills.Add(new SkillTablet("Perl/Awk", 30));
+
+        PlatSkills.Add(new SkillTablet("Google Drive", 100));
+        PlatSkills.Add(new SkillTablet("MS Office", 90));
+        PlatSkills.Add(new SkillTablet("Visual Studio", 75));
+        PlatSkills.Add(new SkillTablet("Github", 75));
+        PlatSkills.Add(new SkillTablet("WSL", 60));
+        PlatSkills.Add(new SkillTablet(".NET", 60));
+        PlatSkills.Add(new SkillTablet("IntelliJ", 40));
+
+        OsSkills.Add(new SkillTablet("Linux", 90));
+        OsSkills.Add(new SkillTablet("Windows", 90));
+    }
 }

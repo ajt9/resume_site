@@ -42,10 +42,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOb3RGb3VuZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/AJ/source/repos/resume_site/MyBlazorApp1/Components/Pages/Skills.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTa2lsbHMucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/AJ/source/repos/resume_site/MyBlazorApp1/Components/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -69,3 +65,7 @@ build_metadata.AdditionalFiles.CssScope = b-8zxvjzq2hv
 [C:/Users/AJ/source/repos/resume_site/MyBlazorApp1/Components/Layout/ReconnectModal.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcUmVjb25uZWN0TW9kYWwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-n144j6frgq
+
+[C:/Users/AJ/source/repos/resume_site/MyBlazorApp1/Components/Pages/Skills.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTa2lsbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-dandbhs3mc
